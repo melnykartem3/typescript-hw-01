@@ -9,3 +9,7 @@ const RoleDescription: Record<UserRole, string> = {
   [UserRole.editor]: "Editor User",
   [UserRole.guest]: "Guest User",
 };
+
+console.log(RoleDescription[UserRole.admin]); // "Admin User"
+console.log(RoleDescription[UserRole.editor]); // "Editor User"
+console.log(RoleDescription[UserRole.guest]); // "Guest User"
