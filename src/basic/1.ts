@@ -2,4 +2,4 @@ const age: number = 50;
 const username: string = "Max";
 const toggle: boolean = true;
 const empty: null = null;
-const callback = (a: any) => 100 + a;
+const callback = (a: number) => 100 + a;
